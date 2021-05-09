@@ -1,11 +1,9 @@
 package dong.yoogo.approval.process.domain;
 
 
-import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 
-public interface ApprovalProcessRepository{
-    void save(ApprovalProcess process);
+public interface ApprovalProcessRepository extends JpaRepository<ApprovalProcess, String> {
 
-    Optional<ApprovalProcess> findById(String transactionNo);
 }

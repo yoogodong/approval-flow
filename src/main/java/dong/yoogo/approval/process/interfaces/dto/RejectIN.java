@@ -1,4 +1,4 @@
-package dong.yoogo.approval.process.rest.dto;
+package dong.yoogo.approval.process.interfaces.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
