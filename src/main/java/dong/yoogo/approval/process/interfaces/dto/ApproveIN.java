@@ -12,5 +12,5 @@ import org.springframework.lang.NonNull;
 @NoArgsConstructor
 public class ApproveIN {
     @NonNull private String approverId;
-    @NonNull private String transactionNo;
+    @NonNull private String processId;
 }

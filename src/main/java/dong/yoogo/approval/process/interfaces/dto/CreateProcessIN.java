@@ -1,10 +1,10 @@
 package dong.yoogo.approval.process.interfaces.dto;
 
-import dong.yoogo.approval.process.domain.ApprovalProcess;
+import dong.yoogo.approval.process.domain.Process;
 
 public class CreateProcessIN {
-    public ApprovalProcess toEntity() {
-        ApprovalProcess process = new ApprovalProcess();
+    public Process toEntity() {
+        Process process = new Process();
         return process;
     }
 }
